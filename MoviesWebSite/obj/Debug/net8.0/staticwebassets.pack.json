@@ -1,0 +1,309 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\MoviesWebSite.bundle.scp.css",
+      "PackagePath": "staticwebassets\\MoviesWebSite.gt2ou05wrf.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\19df329a-29cb-4d01-89c7-bb5f3b0a7969.jpg",
+      "PackagePath": "staticwebassets\\Images\\19df329a-29cb-4d01-89c7-bb5f3b0a7969.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\1cce2536-9ebf-467a-af3f-7a9b5d150757.jpg",
+      "PackagePath": "staticwebassets\\Images\\1cce2536-9ebf-467a-af3f-7a9b5d150757.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\593f1889-0f56-4db3-886c-1e6e3c710859.jpg",
+      "PackagePath": "staticwebassets\\Images\\593f1889-0f56-4db3-886c-1e6e3c710859.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\5a4ac642-9b11-4849-b806-4930176c2c99.jpg",
+      "PackagePath": "staticwebassets\\Images\\5a4ac642-9b11-4849-b806-4930176c2c99.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\6f4fa770-6c66-4d3c-9676-9d612e543203.jpg",
+      "PackagePath": "staticwebassets\\Images\\6f4fa770-6c66-4d3c-9676-9d612e543203.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\78a5fd7d-29bb-4d2a-89c4-3cc2b3d34418.jpg",
+      "PackagePath": "staticwebassets\\Images\\78a5fd7d-29bb-4d2a-89c4-3cc2b3d34418.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\7fd19d9e-618e-4734-861c-eadf761f2a8f.jpg",
+      "PackagePath": "staticwebassets\\Images\\7fd19d9e-618e-4734-861c-eadf761f2a8f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\9845fd9f-a4f5-4ffa-9577-ffedd0f9abbb.jpg",
+      "PackagePath": "staticwebassets\\Images\\9845fd9f-a4f5-4ffa-9577-ffedd0f9abbb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\986af1f0-96d1-4323-9235-7a8a766cd84c.jpg",
+      "PackagePath": "staticwebassets\\Images\\986af1f0-96d1-4323-9235-7a8a766cd84c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\Images\\e624a298-0fc4-4ab2-839e-13f1ec63d7a1.jpg",
+      "PackagePath": "staticwebassets\\Images\\e624a298-0fc4-4ab2-839e-13f1ec63d7a1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\nikol\\OneDrive\\Работен плот\\MoviesWebSite\\MoviesWebSite\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MoviesWebSite.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.MoviesWebSite.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.MoviesWebSite.props",
+      "PackagePath": "build\\MoviesWebSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.MoviesWebSite.props",
+      "PackagePath": "buildMultiTargeting\\MoviesWebSite.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.MoviesWebSite.props",
+      "PackagePath": "buildTransitive\\MoviesWebSite.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

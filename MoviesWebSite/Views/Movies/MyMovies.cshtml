@@ -1,0 +1,84 @@
+﻿@model MoviesWebSite.Paginator.PaginatedList<MoviesWebSite.Models.Movie>
+
+@{
+    ViewData["Title"] = "My Movies";
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="container mt-5 d-flex flex-column" style="min-height: 100vh;">
+    @if (!Model.Any())
+    {
+        <div class="row flex-grow-1">
+            <div class="col-12 text-center">
+                <h1>No movies yet...</h1>
+            </div>
+        </div>
+    }
+    else
+    {
+
+        <div class="row">
+            @foreach (var movie in Model)
+            {
+                <div class="col-md-6 mb-4">
+                    <a asp-action="Details" asp-route-id="@movie.MovieId" class="text-decoration-none text-dark">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title">@movie.MovieName</h3>
+                                <h5 class="card-subtitle mb-2 text-muted">@movie.YearReleased</h5>
+                                <p class="card-text">@movie.AverageRating</p>
+                            </div>
+                        </div>
+                    </a>
+                    <form asp-action="DeleteMovie" asp-route-id="@movie.MovieId">
+                        <input type="hidden" asp-for="@movie.MovieId" />
+                        <input type="submit" value="Delete" class="btn btn-danger" /> 
+                    </form>
+                    <a asp-action="Edit" asp-route-id="@movie.MovieId">Edit</a>
+                </div>
+            }
+        </div>
+
+
+
+        <div class="mt-auto d-flex justify-content-center mt-4">
+            <a asp-action="Index"
+               asp-route-pageNumber="@(Model.PageIndex - 1)"
+               class="btn btn-primary me-2 @prevDisabled">
+                Previous
+            </a>
+            <div class="btn btn-outline-secondary me-2" style="cursor: default">
+                Page @Model.PageIndex of @Model.TotalPages
+            </div>
+            <a asp-action="Index"
+               asp-route-pageNumber="@(Model.PageIndex + 1)"
+               class="btn btn-primary @nextDisabled">
+                Next
+            </a>
+        </div>
+    }
+
+
+
+</div>
+
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        @foreach (var movie in Model)
+        {
+            <div class="col">
+                <div class="card h-100">
+                    <a asp-action="Details" asp-route-id="@movie.MovieId" class="text-reset text-decoration-none">
+                        <img src="~/@movie.ImagePath" class="card-img-top img-fluid w-100" style="height:300px; object-fit:contain;" alt="@movie.MovieName" />
+                        <div class="card-body">
+                            <h5 class="card-title">Title: @movie.MovieName</h5>
+                            <p class="card-text"><small class="text-muted">Year Released: @movie.YearReleased</small></p>
+                            <p class="card-text"><small class="text-muted">Published at: @movie.GetFormattedDatePublished()</small></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        }
+    </div>

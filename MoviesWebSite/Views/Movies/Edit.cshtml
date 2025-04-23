@@ -1,0 +1,58 @@
+﻿@model MoviesWebSite.VMs.UpdateMovieVM
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<AppUser> userManager
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit Movie</h1>
+
+<h4>Movie</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="MovieName" class="control-label">Movie Name</label>
+                <input asp-for="MovieName" class="form-control" />
+                <span asp-validation-for="MovieName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="MovieDescription" class="control-label">Movie Description</label>
+                <textarea asp-for="MovieDescription" class="form-control"></textarea>
+                <span asp-validation-for="MovieDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Image" class="control-label">Image</label>
+                <input asp-for="Image" class="form-control" accept="image/*" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+                @if (Model.ImagePath != null)
+                {
+                    <img src="~/@Model.ImagePath" alt="Current Image" style="max-width: 200px; margin-top: 10px;" />
+                }
+            </div>
+            <div class="form-group">
+                <label asp-for="YearReleased" class="control-label">Year Released</label>
+                <input asp-for="YearReleased" class="form-control" />
+                <span asp-validation-for="YearReleased" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="UserId" class="form-control" value="@userManager.GetUserId(User)" />
+            </div>
+            <div class="form-group">
+                <input type="hidden" asp-for="MovieId" class="form-control" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Update" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

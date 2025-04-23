@@ -1,0 +1,77 @@
+﻿@model MoviesWebSite.Paginator.PaginatedList<MoviesWebSite.Models.Movie>
+@{
+    ViewData["Title"] = "Index";
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+@if (!Model.Any())
+{
+    <div class="row flex-grow-1">
+        <div class="col-12 text-center">
+            <h1>No movies yet...</h1>
+        </div>
+    </div>
+}
+else
+{
+    <div class="py-5 d-flex justify-content-center">
+        <form asp-action="Index" method="get" class="d-flex align-items-center">
+            <div class="dropdown bootstrap-select">
+                <button class="btn btn-outline-success dropdown-toggle" type="button" id="sortDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                    Sort
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="sortDropdown">
+                    <li><a class="dropdown-item" asp-action="Index" asp-route-sortValue="descendingByDatePublished">Descending by date published</a></li>
+                    <li><a class="dropdown-item" asp-action="Index" asp-route-sortValue="ascendingByDatePublished">Ascending by date published</a></li>
+                    <li><a class="dropdown-item" asp-action="Index" asp-route-sortValue="descendingByYearReleased">Descending by year released</a></li>
+                    <li><a class="dropdown-item" asp-action="Index" asp-route-sortValue="ascendingByYearReleased">Ascending by year released</a></li>
+                </ul>
+            </div>
+        </form>
+    </div>
+    <div class="container">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            @foreach (var movie in Model)
+            {
+                <div class="col">
+                    <div class="card h-100">
+                        <a asp-action="Details" asp-route-id="@movie.MovieId" class="text-reset text-decoration-none">
+                            <img src="~/@movie.ImagePath" class="card-img-top img-fluid w-100" style="height:300px; object-fit:contain;" alt="@movie.MovieName" />
+                            <div class="card-body">
+                                <h5 class="card-title">Title: @movie.MovieName</h5>
+                                <p class="card-text"><small class="text-muted">Year Released: @movie.YearReleased</small></p>
+                                <p class="card-text"><small class="text-muted">Published by: @movie.User?.Email</small></p>
+                                <p class="card-text"><small class="text-muted">Published at: @movie.GetFormattedDatePublished()</small></p>
+                                <p class="card-text"><small class="text-muted">Rating: @movie.AverageRating</small></p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            }
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <a asp-action="Index"
+               asp-route-pageNumber="@(Model.PageIndex - 1)"
+               class="btn btn-default @prevDisabled">
+                Previous
+            </a>
+            <div class="btn" style="cursor: default">
+                Page @Model.PageIndex of @Model.TotalPages
+            </div>
+            <a asp-action="Index"
+               asp-route-pageNumber="@(Model.PageIndex + 1)"
+               class="btn btn-default @nextDisabled">
+                Next
+            </a>
+        </div>
+    </div>
+    
+}
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

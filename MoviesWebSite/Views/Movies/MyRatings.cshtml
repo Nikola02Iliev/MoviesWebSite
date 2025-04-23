@@ -1,0 +1,56 @@
+﻿@model MoviesWebSite.Paginator.PaginatedList<MoviesWebSite.Models.Rating>
+@{
+    var prevDisabled = !Model.HasPreviousPage ? "disabled" : "";
+    var nextDisabled = !Model.HasNextPage ? "disabled" : "";
+}
+
+<div class="container mt-5 d-flex flex-column" style="min-height: 100vh;">
+    @if (!Model.Any())
+    {
+        <div class="row flex-grow-1">
+            <div class="col-12 text-center">
+                <h1>No ratings yet...</h1>
+            </div>
+        </div>
+    }
+    else
+    {
+        <div class="row">
+            @foreach (var rating in Model)
+            {
+                <div class="col-md-6 mb-4">
+                    <a asp-action="Details" asp-route-id="@rating.Movie.MovieId" class="text-decoration-none text-dark">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="card-title">@rating.RatingLevel</h3>
+                                <h5 class="card-subtitle mb-2 text-muted">@rating.Movie.MovieName</h5>
+                            </div>
+                        </div>
+                    </a>
+                    <form asp-action="DeleteRating" asp-route-id="@rating.RatingId">
+                        <input type="hidden" asp-for="@rating.RatingId" />
+                        <input type="submit" value="Delete" class="btn btn-danger" />
+                    </form>
+                </div>
+            }
+        </div>
+
+
+
+        <div class="mt-auto d-flex justify-content-center mt-4">
+            <a asp-action="Index"
+               asp-route-pageNumber="@(Model.PageIndex - 1)"
+               class="btn btn-primary me-2 @prevDisabled">
+                Previous
+            </a>
+            <div class="btn btn-outline-secondary me-2" style="cursor: default">
+                Page @Model.PageIndex of @Model.TotalPages
+            </div>
+            <a asp-action="Index"
+               asp-route-pageNumber="@(Model.PageIndex + 1)"
+               class="btn btn-primary @nextDisabled">
+                Next
+            </a>
+        </div>
+    }
+</div>

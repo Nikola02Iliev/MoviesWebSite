@@ -1,0 +1,130 @@
+﻿@model MoviesWebSite.Models.Movie
+@using Microsoft.AspNetCore.Identity
+@inject UserManager<AppUser> userManager
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<div class="container">
+    <div class="row justify-content-center p-2">
+        <div class="col-md-8">
+            <div class="card text-center">
+                <div class="card-header">
+                    <h3>@Model.MovieName</h3>
+                </div>
+                <div class="card-body">
+                    <p>@Model.MovieDescription</p>
+                    <p>@Model.YearReleased</p>
+                    <p>@Model.AverageRating</p>
+                </div>
+                <div class="card-footer">
+                    <p>Published by: @Model.User?.Email</p>
+                    <p>Published at: @Model.GetFormattedDatePublished()</p>
+                </div>
+                <img class="card-img-bottom img-fluid w-100" style="height:400px; object-fit:contain;" src="~/@Model.ImagePath" alt="@Model.MovieName" />
+            </div>
+        </div>
+    </div>
+    @if (userManager.GetUserId(User) != Model.UserId)
+    {
+        <div class="row d-flex justify-content-center p-2">
+            <div class="col-md-6">
+                <form asp-action="AddReview" method="post">
+                    <div class="form-group">
+                        <h5>Title:</h5>
+                        <input class="form-control" asp-for="ReviewVM.ReviewTitle" type="text" />
+                        <h5>Content:</h5>
+                        <textarea class="form-control" asp-for="ReviewVM.ReviewContent"></textarea>
+                        <input type="hidden" asp-for="ReviewVM.ReviewedDateTime" value="@DateTime.Now" />
+                        <input type="hidden" asp-for="ReviewVM.MovieId" value="@Model.MovieId" />
+                        <input type="hidden" asp-for="ReviewVM.UserId" value="@userManager.GetUserId(User)" />
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <button type="submit" class="btn btn-primary mt-2">Add Review</button>
+                        }
+                        else
+                        {
+                            <button type="submit" class="btn btn-primary mt-2 disabled">Add Review</button>
+                        }
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2">
+                <form asp-action="AddRating" method="post">
+                    <div class="form-group">
+                        <h5>Rating Level:</h5>
+                        <input asp-for="RatingVM.RatingLevel" class="form-control" type="number" />
+                        <input type="hidden" asp-for="RatingVM.RatedDateTime" value="@DateTime.Now" />
+                        <input type="hidden" asp-for="RatingVM.MovieId" value="@Model.MovieId" />
+                        <input type="hidden" asp-for="RatingVM.UserId" value="@userManager.GetUserId(User)" />
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <button type="submit" class="btn btn-primary mt-2">Add Rating</button>
+                        }
+                        else
+                        {
+                            <button type="submit" class="btn btn-primary mt-2 disabled">Add Rating</button>
+                        }
+                    </div>
+                </form>
+            </div>
+        </div>
+    }
+
+    <div class="row d-flex justify-content-center p-2">
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>Reviews</h5>
+                </div>
+                @if (!Model.Reviews.Any())
+                {
+                    <div class="card-body">
+                        <p class="text-muted">No reviews...</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="list-group list-group-flush">
+                        @foreach (var review in Model.Reviews)
+                        {
+                            <div class="list-group-item">
+                                <h6 class="font-weight-bold">@review.ReviewTitle</h6>
+                                <p class="mb-1">@review.ReviewContent</p>
+                                <p class="mb-1"><small class="text-muted">By: @review.User?.Email</small></p>
+                                <small class="text-muted">@review.GetFormattedReviewedDateTime()</small>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>Ratings</h5>
+                </div>
+                @if (!Model.Ratings.Any())
+                {
+                    <div class="card-body">
+                        <p class="text-muted">No ratings...</p>
+                    </div>
+                }
+                else
+                {
+                    <div class="list-group list-group-flush">
+                        @foreach (var rating in Model.Ratings)
+                        {
+                            <div class="list-group-item">
+                                <p class="mb-1">@rating.RatingLevel</p>
+                                <p class="mb-1"><small class="text-muted">By: @rating.User?.Email</small></p>
+                                <small class="text-muted">@rating.GetFormattedRatedDateTime()</small>
+                            </div>
+                        }
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</div>
